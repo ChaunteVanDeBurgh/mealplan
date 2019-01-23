@@ -5,3 +5,15 @@
 .jumbotron h1 {
 	font-weight: bold;
 }
+
+#meat {
+	background-color: #ffb3b3;
+}
+
+#vegetable {
+	background-color: #b3ff66;
+}
+
+#carbohydrate {
+	background-color: #ffe066;
+}
