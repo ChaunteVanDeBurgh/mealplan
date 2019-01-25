@@ -1,3 +1,9 @@
+const tempSave = {
+	meat: [],
+	vegetable: [],
+	carbohydrate: []
+}
+
 const addText = (dish) => {
 	const dishIn = dish + '-input';
 	const dishOut = dish + '-list';
@@ -7,4 +13,6 @@ const addText = (dish) => {
 	const textNode = document.createTextNode(userInput);
 	listNode.appendChild(textNode);
 	document.getElementById(dishOut).appendChild(listNode);
+	tempSave[dish].push(userInput);
+	console.log(tempSave);
 }
