@@ -23,3 +23,13 @@
 	padding-left: 1rem;
 	font-size: 1rem;
 }
+
+ul {
+	padding-left: .5rem;
+}
+
+li {
+	list-style: none;
+	margin-left: 0px;
+	font-size: 1.5rem;
+}
