@@ -16,3 +16,13 @@ const addText = (dish) => {
 	tempSave[dish].push(userInput);
 	console.log(tempSave);
 }
+
+const generateMeal = () => {
+	const numMeat = Math.floor(Math.random() * tempSave.meat.length);
+	const numVeg = Math.floor(Math.random() * tempSave.vegetable.length);
+	const numCarb = Math.floor(Math.random() * tempSave.carbohydrate.length);
+	const meatChoice = tempSave.meat[numMeat];
+	const vegChoice = tempSave.vegetable[numVeg];
+	const carbChoice = tempSave.carbohydrate[numCarb];
+	console.log(meatChoice + ' ' + vegChoice + ' ' + carbChoice);
+}
