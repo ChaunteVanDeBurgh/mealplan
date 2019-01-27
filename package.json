@@ -1,0 +1,28 @@
+{
+  "name": "mealplan",
+  "version": "1.0.0",
+  "description": "An app to help you plan your meals",
+  "main": "index.html",
+  "scripts": {
+    "test": "mealplan",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaunteVanDeBurgh/mealplan.git"
+  },
+  "keywords": [
+    "meal",
+    "plan"
+  ],
+  "author": "Chaunte VandeBurgh",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ChaunteVanDeBurgh/mealplan/issues"
+  },
+  "homepage": "https://github.com/ChaunteVanDeBurgh/mealplan",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
