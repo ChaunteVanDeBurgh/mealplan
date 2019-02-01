@@ -24,5 +24,6 @@ const generateMeal = () => {
 	const meatChoice = tempSave.meat[numMeat];
 	const vegChoice = tempSave.vegetable[numVeg];
 	const carbChoice = tempSave.carbohydrate[numCarb];
-	console.log(meatChoice + ' ' + vegChoice + ' ' + carbChoice);
+	meal = meatChoice + ' ' + vegChoice + ' ' + carbChoice;
+	console.log(meal);
 }
