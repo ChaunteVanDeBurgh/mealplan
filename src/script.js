@@ -24,7 +24,7 @@ const generateMeal = () => {
 	const meatChoice = tempSave.meat[numMeat];
 	const vegChoice = tempSave.vegetable[numVeg];
 	const carbChoice = tempSave.carbohydrate[numCarb];
-	meal = meatChoice + ' ' + vegChoice + ' ' + carbChoice;
+	const meal = meatChoice + ' ' + vegChoice + ' ' + carbChoice;
 	const listNode = document.createElement('li');
 	const textNode = document.createTextNode(meal);
 	listNode.appendChild(textNode);
