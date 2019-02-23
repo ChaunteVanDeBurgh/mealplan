@@ -28,6 +28,10 @@
 	font-size: 1rem;
 }
 
+.card-body {
+	overflow-y: auto;
+}
+
 ul {
 	padding-left: .5rem;
 }
