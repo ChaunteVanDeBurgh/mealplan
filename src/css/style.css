@@ -53,6 +53,6 @@ li {
 
 	#generate-meal {
 		width: 56rem;
-		height: 12rem;
+		height: auto;
 	}
 }
