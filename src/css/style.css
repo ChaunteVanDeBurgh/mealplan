@@ -41,6 +41,7 @@ li {
 @media screen and (min-width: 900px) {
 	.card {
 		width: 18rem;
+		margin: .5rem;
 	}
 
 	main {
@@ -50,6 +51,6 @@ li {
 	}
 
 	#generate-meal {
-		width: 54rem;
+		width: 56rem;
 	}
 }
