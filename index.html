@@ -20,62 +20,70 @@
       </div>
     </div>
 
-    <div class="card" id="meat">
-      <div class="card-header">
-        <h1 class="card-title">Meat</h1>
-      </div>
-      <div class="card-body">
-        <ul class="dish-list" id="meat-list">
+    <main>
 
-        </ul>
-        <div class="input-group">
-          <input type="text" class="form-controle" id="meat-input" placeholder="Add a meat" aria-label="meat-input" aria-describedby="add-meat-to-list">
-          <button class="btn" onClick="addText('meat')">Add Dish</button> 
+      <div class="row">
+
+        <div class="card" id="meat">
+          <div class="card-header">
+            <h1 class="card-title">Meat</h1>
+          </div>
+          <div class="card-body">
+            <ul class="dish-list" id="meat-list">
+
+            </ul>
+            <div class="input-group">
+              <input type="text" class="form-controle" id="meat-input" placeholder="Add a meat" aria-label="meat-input" aria-describedby="add-meat-to-list">
+              <button class="btn" onClick="addText('meat')">Add Dish</button> 
+            </div>
+          </div>
+        </div>
+
+        <div class="card" id="vegetable">
+          <div class="card-header">
+            <h1 class="card-title">Vegetable</h1>
+          </div>
+          <div class="card-body">
+            <ul class="dish-list" id="vegetable-list">
+              
+            </ul>
+            <div class="input-group">
+              <input type="text" class="form-controle" id="vegetable-input" placeholder="Add a vegetable" aria-label="vegetable-input" aria-describedby="add-vegetable-to-list">
+              <button class="btn" onClick="addText('vegetable')">Add Dish</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" id="carbohydrate">
+          <div class="card-header">
+            <h1 class="card-title">Carbohydrate</h1>
+          </div>
+          <div class="card-body">
+            <ul class="dish-list" id="carbohydrate-list">
+              
+            </ul>
+            <div class="input-group">
+              <input type="text" class="form-controle" id="carbohydrate-input" placeholder="Add a carbohydrate" aria-label="carbohydrate-input" aria-describedby="add-carbohydrate-to-list"> 
+              <button class="btn" onClick="addText('carbohydrate')" >Add Dish</button>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="card" id="vegetable">
-      <div class="card-header">
-        <h1 class="card-title">Vegetable</h1>
-      </div>
-      <div class="card-body">
-        <ul class="dish-list" id="vegetable-list">
-          
-        </ul>
-        <div class="input-group">
-          <input type="text" class="form-controle" id="vegetable-input" placeholder="Add a vegetable" aria-label="vegetable-input" aria-describedby="add-vegetable-to-list">
-          <button class="btn" onClick="addText('vegetable')">Add Dish</button
+      <div class="row">
+        <div class="card" id="generate-meal">
+          <div class="card-header">
+            <h1 class="card-title">Generate Meal</h1>
+          </div>
+          <div class="card-body">
+            <ul id="meal-display">
+
+            </ul>
+            <button class="btn btn-lg" onClick="generateMeal()">Generate Meal</button>
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class="card" id="carbohydrate">
-      <div class="card-header">
-        <h1 class="card-title">Carbohydrate</h1>
-      </div>
-      <div class="card-body">
-        <ul class="dish-list" id="carbohydrate-list">
-          
-        </ul>
-        <div class="input-group">
-          <input type="text" class="form-controle" id="carbohydrate-input" placeholder="Add a carbohydrate" aria-label="carbohydrate-input" aria-describedby="add-carbohydrate-to-list"> 
-          <button class="btn" onClick="addText('carbohydrate')" >Add Dish</button>
-        </div>
-      </div>
-    </div>
-
-    <div class="card" id="generate-meal">
-      <div class="card-header">
-        <h1 class="card-title">Generate Meal</h1>
-      </div>
-      <div class="card-body">
-        <ul id="meal-display">
-
-        </ul>
-        <button class="btn btn-lg" onClick="generateMeal()">Generate Meal</button>
-      </div>
-    </div>
+    </main>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

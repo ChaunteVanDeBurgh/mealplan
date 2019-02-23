@@ -42,4 +42,13 @@ li {
 	.card {
 		width: 18rem;
 	}
+
+	main {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#generate-meal {
+		width: 54rem;
+	}
 }
